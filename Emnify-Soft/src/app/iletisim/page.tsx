@@ -25,7 +25,7 @@ export default function ContactPage() {
                 <FaMapMarkerAlt className="text-primary text-2xl" />
               </div>
               <h3 className="font-bold text-lg mb-2">Adres</h3>
-              <p className="text-gray-600">Ankara, Türkiye</p>
+              <p className="text-gray-600">İstanbul, Türkiye</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">

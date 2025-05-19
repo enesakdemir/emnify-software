@@ -20,17 +20,11 @@ export default function Footer() {
               Profesyonel web tasarım ve yazılım çözümleri ile işletmenizi dijital dünyada öne çıkarıyoruz.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                <FaFacebook size={20} />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                <FaTwitter size={20} />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/emnifysoft/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
                 <FaInstagram size={20} />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                <FaLinkedin size={20} />
+              <a href="https://wa.me/905059489246" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
+                <FaPhone size={20} />
               </a>
             </div>
           </div>
@@ -109,7 +103,10 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <FaPhone className="text-accent" />
-                <span className="text-gray-300">+(90) 505 948 92 46 / +(90) 551 160 64 10</span>
+                <span className="text-gray-300 flex flex-col">
+                  <span>+(90) 505 948 92 46</span>
+                  <span>+(90) 551 160 64 10</span>
+                </span>
               </li>
               <li className="flex items-center gap-3">
                 <FaEnvelope className="text-accent" />

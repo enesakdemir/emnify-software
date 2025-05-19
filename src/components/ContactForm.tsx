@@ -130,10 +130,10 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold mb-1">Telefon</h4>
-                  <p className="text-gray-600 flex flex-col items-center">
+                  <div className="text-gray-600 flex flex-col gap-2">
                     <span>+(90) 505 948 92 46</span>
                     <span>+(90) 551 160 64 10</span>
-                  </p>
+                  </div>
                 </div>
               </div>
               

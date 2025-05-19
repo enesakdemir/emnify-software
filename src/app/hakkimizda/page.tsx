@@ -19,19 +19,18 @@ export default function AboutPage() {
       
       {/* Ekip Bölümü */}
       <section className="section bg-light">
-        <div className="container">
-          <h2 className="section-title">Ekibimiz</h2>
-          <p className="section-subtitle">
+        <div className="container flex flex-col items-center">
+          <h2 className="section-title text-center">Ekibimiz</h2>
+          <p className="section-subtitle text-center">
             Uzman ve deneyimli ekibimizle her projenizi profesyonelce hayata geçiriyoruz
           </p>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 w-full max-w-4xl justify-center justify-items-center">
             {/* Ekip Üyesi 1 */}
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <div className="w-32 h-32 rounded-full bg-gray-300 mx-auto mb-4 flex items-center justify-center overflow-hidden">
-                <span className="text-4xl font-bold text-gray-500">MS</span>
+                <span className="text-4xl font-bold text-gray-500">EA</span>
               </div>
-              <h3 className="text-xl font-bold mb-1">Mehmet Şimşek</h3>
+              <h3 className="text-xl font-bold mb-1">Enes Akdemir</h3>
               <p className="text-primary font-medium mb-4">Kurucu & CEO</p>
               <p className="text-gray-600">
                 10+ yıllık sektör deneyimi ile işletmelerin dijital dönüşümüne liderlik ediyor.
@@ -41,24 +40,12 @@ export default function AboutPage() {
             {/* Ekip Üyesi 2 */}
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <div className="w-32 h-32 rounded-full bg-gray-300 mx-auto mb-4 flex items-center justify-center overflow-hidden">
-                <span className="text-4xl font-bold text-gray-500">AY</span>
+                <span className="text-4xl font-bold text-gray-500">ME</span>
               </div>
-              <h3 className="text-xl font-bold mb-1">Ayşe Yılmaz</h3>
+              <h3 className="text-xl font-bold mb-1">Melik Erbil</h3>
               <p className="text-primary font-medium mb-4">Kreatif Direktör</p>
               <p className="text-gray-600">
                 Yaratıcı tasarım yaklaşımı ile projelere estetik ve fonksiyonel çözümler getiriyor.
-              </p>
-            </div>
-            
-            {/* Ekip Üyesi 3 */}
-            <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-              <div className="w-32 h-32 rounded-full bg-gray-300 mx-auto mb-4 flex items-center justify-center overflow-hidden">
-                <span className="text-4xl font-bold text-gray-500">ED</span>
-              </div>
-              <h3 className="text-xl font-bold mb-1">Emre Demir</h3>
-              <p className="text-primary font-medium mb-4">Baş Yazılım Mühendisi</p>
-              <p className="text-gray-600">
-                Güncel teknolojilere hakim, yenilikçi ve güvenilir yazılım çözümleri geliştiriyor.
               </p>
             </div>
           </div>
