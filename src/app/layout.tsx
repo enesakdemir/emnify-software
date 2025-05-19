@@ -7,6 +7,10 @@ export const metadata: Metadata = {
     template: '%s | Emnify Software',
   },
   description: 'Emnify Software ile işletmeniz için profesyonel web tasarım, yazılım geliştirme ve dijital pazarlama çözümleri.',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
   openGraph: {
     title: 'Emnify Software - Profesyonel Web Tasarım ve Yazılım Hizmetleri',
     description: 'Emnify Software ile işletmeniz için profesyonel web tasarım, yazılım geliştirme ve dijital pazarlama çözümleri.',
